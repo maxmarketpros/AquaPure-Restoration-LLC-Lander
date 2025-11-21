@@ -48,11 +48,11 @@ export default function LandingPage() {
     image: "https://aquapurerestoration.com/images/logo.webp",
     logo: "https://aquapurerestoration.com/images/logo.webp",
     description:
-      "Fast emergency water removal and flood cleanup services in Catawba, NC. With over 20 years of experience, AquaPure Restoration provides free inspections and detailed quotes.",
+      "Fast emergency water removal and flood cleanup services in North Carolina. With over 20 years of experience, AquaPure Restoration provides free inspections and detailed quotes.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Catawba",
-      addressLocality: "Catawba",
+      streetAddress: "North Carolina",
+      addressLocality: "North Carolina",
       addressRegion: "NC",
       addressCountry: "US",
     },
@@ -169,7 +169,7 @@ export default function LandingPage() {
                 {/* Left Column */}
                 <div className="space-y-6">
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1F2933] leading-tight text-balance">
-                    24/7 Water Damage Restoration in Catawba, NC
+                    24/7 Water Damage Restoration in North Carolina
                   </h1>
                   <p className="text-lg text-[#6B7280] leading-relaxed">
                     Fast emergency water removal and flood cleanup services when you need them most. With over 20 years
@@ -224,7 +224,7 @@ export default function LandingPage() {
                 {/* CHANGE: Moved ID to heading so scroll targets the top of form section */}
                 <div className="bg-white rounded-xl shadow-xl p-4 md:p-6 border-t-4 border-[#0077C8]">
                   <h2 id="contact-form" className="text-2xl font-bold text-[#1F2933] mb-3">
-                    Need Emergency Water Removal?
+                    Request a Free Estimate
                   </h2>
                   <p className="text-[#6B7280] mb-6">
                     Fill out this form and we'll call you back within minutes to schedule your free inspection.
@@ -269,7 +269,7 @@ export default function LandingPage() {
                 <div className="flex items-center gap-3 p-4 bg-[#F5F7FA] rounded-lg">
                   <MapPin className="w-10 h-10 text-[#0077C8] flex-shrink-0" />
                   <span className="text-sm font-medium text-[#1F2933]">
-                    Fast Response in Catawba, NC and Nearby Areas
+                    Fast Response Throughout North Carolina
                   </span>
                 </div>
                 <div className="flex items-center gap-3 p-4 bg-[#F5F7FA] rounded-lg">
@@ -457,7 +457,7 @@ export default function LandingPage() {
                     Residential & Commercial Water Damage Restoration
                   </h3>
                   <p className="text-[#6B7280] leading-relaxed">
-                    Full-service water damage restoration for homes and businesses throughout Catawba, NC.
+                    Full-service water damage restoration for homes and businesses throughout North Carolina.
                   </p>
                 </div>
               </div>
@@ -469,7 +469,7 @@ export default function LandingPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#1F2933] mb-4">
-                  Why Homeowners in Catawba Trust AquaPure Restoration
+                  Why North Carolina Homeowners Trust AquaPure Restoration
                 </h2>
                 <p className="text-lg text-[#6B7280] max-w-3xl mx-auto leading-relaxed">
                   As a local water damage restoration company, we pride ourselves on being available when you need us
@@ -600,12 +600,12 @@ export default function LandingPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#1F2933] mb-4">
-                  Serving Catawba, NC and Surrounding Communities
+                  Serving Communities Across North Carolina
                 </h2>
                 <p className="text-lg text-[#6B7280] max-w-3xl mx-auto">
-                  AquaPure Restoration LLC is based in Catawba and provides fast emergency water damage restoration
-                  across North Carolina. If you searched for "water damage restoration near me" or "water damage repair
-                  near me," our local team is ready to respond 24/7.
+                  AquaPure Restoration LLC is based in North Carolina and provides fast emergency water damage restoration
+                  across the state. If you searched for "water damage restoration near me" or "water damage repair near me,"
+                  our local team is ready to respond 24/7.
                 </p>
               </div>
               <div className="max-w-2xl mx-auto bg-white rounded-xl shadow-lg p-8">
@@ -613,7 +613,7 @@ export default function LandingPage() {
                   <MapPin className="w-8 h-8 text-[#0077C8] flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-[#1F2933] mb-2">AquaPure Restoration LLC</h3>
-                    <p className="text-[#6B7280] mb-1">5159 Bert Dr, Catawba, NC 28609</p>
+                    <p className="text-[#6B7280] mb-1">5159 Bert Dr, NC 28609</p>
                     <p className="text-[#6B7280] mb-1">
                       Phone:{" "}
                       <a href="tel:18285685570" className="text-[#0077C8] hover:underline font-medium">
@@ -733,7 +733,7 @@ export default function LandingPage() {
                     "They responded within an hour of my call and had our basement dried out in just a few days. Very
                     professional and thorough!"
                   </p>
-                  <p className="text-[#1F2933] font-medium">— Homeowner in Catawba</p>
+                  <p className="text-[#1F2933] font-medium">— Homeowner in North Carolina</p>
                 </div>
 
                 {/* Testimonial 2 */}
@@ -795,9 +795,9 @@ export default function LandingPage() {
                   {openFaq === 1 && (
                     <div className="px-6 pb-6">
                       <p className="text-[#6B7280] leading-relaxed">
-                        We typically respond within 30-60 minutes for emergency water damage calls in Catawba and
-                        surrounding areas. Our 24/7 emergency team is always ready to dispatch with the right equipment
-                        to start water extraction immediately.
+                        We typically respond within 30-60 minutes for emergency water damage calls across North Carolina.
+                        Our 24/7 emergency team is always ready to dispatch with the right equipment to start water
+                        extraction immediately.
                       </p>
                     </div>
                   )}
@@ -913,7 +913,7 @@ export default function LandingPage() {
           <section className="py-16 bg-gradient-to-br from-[#004080] to-[#0077C8] text-white">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">
-                Need Emergency Water Damage Restoration in Catawba, NC?
+                Need Emergency Water Damage Restoration in North Carolina?
               </h2>
               <p className="text-xl mb-8 text-gray-100">
                 Call now for 24/7 emergency water removal and a FREE inspection.
@@ -954,7 +954,7 @@ export default function LandingPage() {
                   />
                 </div>
                 <p className="text-sm leading-relaxed">
-                  Professional water damage restoration and flood cleanup services in Catawba, NC and surrounding
+                  Professional water damage restoration and flood cleanup services in North Carolina and surrounding
                   communities.
                 </p>
               </div>
@@ -962,7 +962,7 @@ export default function LandingPage() {
                 <h3 className="text-white font-bold mb-4">Contact Us</h3>
                 <div className="space-y-2 text-sm">
                   <p>AquaPure Restoration LLC</p>
-                  <p>5159 Bert Dr, Catawba, NC 28609</p>
+                  <p>5159 Bert Dr, NC 28609</p>
                   <p>
                     Phone:{" "}
                     <a href="tel:18285685570" className="text-[#00A0E0] hover:underline">
@@ -981,8 +981,8 @@ export default function LandingPage() {
               <div>
                 <h3 className="text-white font-bold mb-4">Service Area</h3>
                 <p className="text-sm">
-                  Serving Catawba, NC and surrounding communities with 24/7 emergency water damage restoration, flood
-                  cleanup, and mold remediation services.
+                  Serving North Carolina and surrounding communities with 24/7 emergency water damage restoration,
+                  flood cleanup, and mold remediation services.
                 </p>
               </div>
             </div>

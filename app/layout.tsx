@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -88,6 +89,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17747714492" strategy="afterInteractive" />
+        <Script id="gtag-base" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17747714492');
+          `}
+        </Script>
+        <Script id="gtag-phone-conversion" strategy="afterInteractive">
+          {`
+            gtag('config', 'AW-17747714492/5m6NCLaihsQbELzD4o5C', {
+              'phone_conversion_number': '(828) 568-5570'
+            });
+          `}
+        </Script>
+      </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />

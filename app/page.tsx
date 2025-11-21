@@ -222,16 +222,12 @@ export default function LandingPage() {
 
                 {/* Right Column - Contact Form Card */}
                 {/* CHANGE: Moved ID to heading so scroll targets the top of form section */}
-                <div className="bg-white rounded-xl shadow-xl p-4 md:px-6 md:pt-6 md:pb-3 border-t-4 border-[#0077C8] relative overflow-hidden">
+                <div className="bg-white rounded-xl shadow-xl p-4 md:px-6 md:pt-6 md:pb-1 border-t-4 border-[#0077C8] relative overflow-hidden">
                   <div className="absolute -top-10 right-0 h-24 w-24 rounded-full bg-[#E6F4FB] blur-3xl opacity-70 pointer-events-none" />
                   <div className="absolute -bottom-16 left-2 h-36 w-36 rounded-full bg-[#F0F7FF] blur-3xl opacity-80 pointer-events-none" />
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E6F4FB] text-[#004080] text-xs font-semibold shadow-sm">
-                    <Shield className="w-4 h-4" />
-                    Insurance-friendly, 24/7 response
-                  </div>
                   <h2
                     id="contact-form"
-                    className="mt-3 text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-[#004080] via-[#005a99] to-[#00A0E0] bg-clip-text text-transparent"
+                    className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-[#004080] via-[#005a99] to-[#00A0E0] bg-clip-text text-transparent"
                   >
                     Free Insurance-Approved Inspection
                   </h2>

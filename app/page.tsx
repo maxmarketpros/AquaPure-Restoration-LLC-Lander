@@ -224,7 +224,7 @@ export default function LandingPage() {
                 {/* CHANGE: Moved ID to heading so scroll targets the top of form section */}
                 <div className="bg-white rounded-xl shadow-xl p-4 md:p-6 border-t-4 border-[#0077C8]">
                   <h2 id="contact-form" className="text-2xl font-bold text-[#1F2933] mb-3">
-                    Need Emergency Water Removal?
+                    Request a Free Estimate
                   </h2>
                   <p className="text-[#6B7280] mb-6">
                     Fill out this form and we'll call you back within minutes to schedule your free inspection.

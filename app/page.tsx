@@ -131,8 +131,8 @@ export default function LandingPage() {
       <div className="min-h-screen bg-gray-50">
         {/* STICKY HEADER */}
         <header className="md:sticky md:top-0 md:z-50 bg-white border-b border-gray-200 shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
               <div className="flex items-center">
                 <Image
                   src="/images/logo.webp"
@@ -143,16 +143,17 @@ export default function LandingPage() {
                 />
               </div>
               <div className="flex flex-col sm:flex-row items-center gap-3">
-                <span className="text-sm font-medium text-gray-700 flex items-center gap-2">
+                <span className="hidden md:flex text-sm font-medium text-gray-700 items-center gap-2">
                   <Clock className="w-4 h-4 text-[#0077C8]" />
-                  Open 24/7 • Emergency Response
+                  Open 24/7 — Emergency Response
                 </span>
                 <a
                   href="tel:18285685570"
-                  className="inline-flex items-center gap-2 bg-[#004080] hover:bg-[#003366] text-white font-bold px-6 py-3 rounded-lg transition-colors shadow-md"
+                  aria-label="Call AquaPure Restoration"
+                  className="inline-flex items-center justify-center gap-2 bg-[#004080] hover:bg-[#003366] text-white font-bold px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition-colors shadow-md text-sm sm:text-base"
                 >
                   <Phone className="w-5 h-5" />
-                  (828) 568-5570
+                  <span className="hidden md:inline">(828) 568-5570</span>
                 </a>
               </div>
             </div>

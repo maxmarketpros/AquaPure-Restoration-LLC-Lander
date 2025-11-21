@@ -169,7 +169,7 @@ export default function LandingPage() {
                 {/* Left Column */}
                 <div className="space-y-6">
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1F2933] leading-tight text-balance">
-                    24/7 Water Damage Restoration in North Carolina
+                    24/7 Water Damage & Mold Remediation in North Carolina
                   </h1>
                   <p className="text-lg text-[#6B7280] leading-relaxed">
                     Fast emergency water removal and flood cleanup services when you need them most. With over 20 years

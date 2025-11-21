@@ -222,7 +222,7 @@ export default function LandingPage() {
 
                 {/* Right Column - Contact Form Card */}
                 {/* CHANGE: Moved ID to heading so scroll targets the top of form section */}
-                <div className="bg-white rounded-xl shadow-xl p-4 md:px-6 md:pt-6 md:pb-1 border-t-4 border-[#0077C8] relative overflow-hidden">
+                <div className="bg-white rounded-xl shadow-xl p-4 pb-2 md:px-6 md:pt-6 md:pb-0 border-t-4 border-[#0077C8] relative overflow-hidden">
                   <div className="absolute -top-10 right-0 h-24 w-24 rounded-full bg-[#E6F4FB] blur-3xl opacity-70 pointer-events-none" />
                   <div className="absolute -bottom-16 left-2 h-36 w-36 rounded-full bg-[#F0F7FF] blur-3xl opacity-80 pointer-events-none" />
                   <h2
@@ -234,7 +234,7 @@ export default function LandingPage() {
                   <p className="text-[#6B7280] mb-6">
                     Fill out this form and we'll call you back within minutes to schedule your free inspection.
                   </p>
-                  <div className="w-full" style={{ minHeight: "760px" }}>
+                  <div className="w-full" style={{ minHeight: "700px" }}>
                     <iframe
                       src="https://api.leadconnectorhq.com/widget/form/x1VHWk9xxF0lgxRxJvZE"
                       style={{ width: "100%", height: "100%", minHeight: "760px", border: "none", borderRadius: "3px" }}

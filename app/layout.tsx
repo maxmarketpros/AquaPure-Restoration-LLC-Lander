@@ -9,13 +9,13 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AquaPure Restoration | 24/7 Water Damage Restoration in Catawba, NC",
+  title: "AquaPure Restoration | 24/7 Water Damage Restoration in North Carolina",
   description:
-    "Fast emergency water removal and flood cleanup services in Catawba, NC. With over 20 years of experience, AquaPure Restoration provides free inspections and detailed quotes. Call (828) 568-5570 for 24/7 emergency response.",
+    "Fast emergency water removal and flood cleanup services in North Carolina. With over 20 years of experience, AquaPure Restoration provides free inspections and detailed quotes. Call (828) 568-5570 for 24/7 emergency response.",
   keywords: [
-    "water damage restoration Catawba NC",
+    "water damage restoration North Carolina",
     "emergency water removal",
-    "flood cleanup Catawba",
+    "flood cleanup North Carolina",
     "water extraction services",
     "mold remediation",
     "fire damage restoration",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "AquaPure Restoration | 24/7 Water Damage Restoration in Catawba, NC",
+    title: "AquaPure Restoration | 24/7 Water Damage Restoration in North Carolina",
     description:
       "Fast emergency water removal and flood cleanup services when you need them most. Free inspections & detailed quotes. Over 20 years of experience.",
     url: "https://aquapurerestoration.com",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         url: "/images/3.jpg",
         width: 1200,
         height: 630,
-        alt: "Professional water damage restoration services in Catawba, NC",
+        alt: "Professional water damage restoration services in North Carolina",
       },
     ],
     locale: "en_US",
